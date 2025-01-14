@@ -1,0 +1,26 @@
+# MATLAB-specific .gitignore
+
+# Ignore temporary files
+*.asv
+*.m~
+*.mlx~
+*.mdl~
+*.slx~
+
+# Ignore backup and autosave files
+*.bak
+*.autosave
+
+# Ignore MATLAB AppData files
+*.asb
+*.slxp
+*.slxc
+
+# Ignore user-specific settings
+*.prj
+*.mproj
+*.mlproj
+
+# Ignore generated files
+*.mex*
+*.p
